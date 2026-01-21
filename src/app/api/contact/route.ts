@@ -80,7 +80,7 @@ export async function POST(req: Request) {
         // Send email using Resend
         const { data, error } = await resend.emails.send({
             from: 'Neurocortex Web <contacto@neurocortex.com.ar>',
-            to: ['contacto@neurocortex.com.ar'], // Tu email de destino
+            to: ['dary775@gmail.com'], // Enviamos a tu Gmail para que los recibas
             replyTo: email,
             subject: `Nuevo mensaje de ${name} - ${project_type || 'Consulta General'}`,
             html: `
