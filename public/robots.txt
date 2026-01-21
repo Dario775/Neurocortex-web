@@ -1,0 +1,11 @@
+# Robots.txt para Neurocortex
+# https://neurocortex.com.ar
+
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://neurocortex.com.ar/sitemap.xml
+
+# Bloquear rutas de API
+Disallow: /api/

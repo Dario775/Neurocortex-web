@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <!-- Página principal - Español -->
+  <url>
+    <loc>https://neurocortex.com.ar/es</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://neurocortex.com.ar/es"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://neurocortex.com.ar/en"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://neurocortex.com.ar/pt"/>
+    <lastmod>2026-01-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <!-- Página principal - English -->
+  <url>
+    <loc>https://neurocortex.com.ar/en</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://neurocortex.com.ar/es"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://neurocortex.com.ar/en"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://neurocortex.com.ar/pt"/>
+    <lastmod>2026-01-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <!-- Página principal - Português -->
+  <url>
+    <loc>https://neurocortex.com.ar/pt</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://neurocortex.com.ar/es"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://neurocortex.com.ar/en"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://neurocortex.com.ar/pt"/>
+    <lastmod>2026-01-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+</urlset>

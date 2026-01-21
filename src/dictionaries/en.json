@@ -1,0 +1,117 @@
+{
+    "nav": {
+        "system_status": "ONLINE",
+        "metrics": {
+            "sync": "AVAILABILITY",
+            "latency": "SUPPORT",
+            "neurons": "PROJECTS"
+        },
+        "user_info": {
+            "node_id": "GUEST",
+            "auth": "VERIFIED"
+        },
+        "cta_button": "START PROJECT"
+    },
+    "sidebar": {
+        "dashboard": "Home",
+        "neural_core": "Services",
+        "security": "Clients",
+        "api": "Contact",
+        "status": {
+            "core_temp": "SATISFACTION",
+            "neural_load": "SPEED",
+            "stable": "100%"
+        }
+    },
+    "hero": {
+        "label": "WEB & MOBILE DEVELOPMENT",
+        "title": "DIGITAL SOLUTIONS FOR\nYOUR BUSINESS",
+        "description": "We create websites, mobile apps, and platforms that help your company grow. Modern technology, simple for you.",
+        "cta_primary": "Contact Us",
+        "cta_secondary": "Our Work"
+    },
+    "services": {
+        "title": "WHAT WE DO",
+        "vision": {
+            "title": "Web Development",
+            "description": "Custom websites and systems. We build exactly what your business needs to operate efficiently.",
+            "spec_1": "MODERN WEBSITES",
+            "spec_2": "CUSTOM SYSTEMS",
+            "action": "LEARN MORE"
+        },
+        "nlp": {
+            "title": "Mobile Apps",
+            "description": "Applications for iPhone and Android. Fast, easy to use, and available on App Stores.",
+            "spec_1": "IPHONE (iOS)",
+            "spec_2": "ANDROID",
+            "action": "SEE APPS"
+        },
+        "predictive": {
+            "title": "Online Platforms",
+            "description": "Subscription systems (SaaS) and digital tools to sell your services or products online.",
+            "action": "SEE EXAMPLES"
+        },
+        "automation": {
+            "title": "Design & Experience",
+            "description": "Professional and attractive design. We make sure your customers have a great experience.",
+            "action": "SEE DESIGNS"
+        }
+    },
+    "network": {
+        "title": "TRUSTED BY",
+        "subtitle": "Companies that grow with us."
+    },
+    "cta_banner": {
+        "title": "READY TO START?",
+        "subtitle": "Let's turn your idea into reality.",
+        "button": "START NOW"
+    },
+    "contact": {
+        "title": "CONTACT US",
+        "subtitle": "Send us a message about your project. We'll reply fast.",
+        "form": {
+            "name": "YOUR NAME",
+            "email": "YOUR EMAIL",
+            "type": "I AM INTERESTED IN...",
+            "message": "YOUR MESSAGE",
+            "submit": "SEND MESSAGE"
+        }
+    },
+    "footer": {
+        "desc_1": "PROFESSIONAL DEVELOPMENT FOR MODERN BUSINESSES.",
+        "desc_2": "QUALITY, SPEED, RESULTS.",
+        "platform": {
+            "title": "SERVICES",
+            "link_1": "WEB APPS",
+            "link_2": "E-COMMERCE",
+            "link_3": "STARTUPS"
+        },
+        "company": {
+            "title": "AGENCY",
+            "link_1": "PORTFOLIO",
+            "link_2": "PROCESS",
+            "link_3": "CONTACT"
+        },
+        "copyright": "© 2026 NEUROCORTEX. ALL RIGHTS RESERVED."
+    },
+    "web_dev": {
+        "title": "Web Development",
+        "subtitle": "ARCHIVE / PROJECTS_LIST_v2.0",
+        "description": "Robust systems, interfaces that engage, and high-performance code. Our technical approach ensures scalability and security in every deployment."
+    },
+    "mobile": {
+        "title": "Mobile Apps",
+        "subtitle": "MOBILE_SUBSYSTEM / DEPLOYMENTS_v4.0",
+        "description": "Native and multi-platform experiences designed for maximum fluidity. We optimize resources and latency for frictionless interactions."
+    },
+    "platforms": {
+        "title": "Online Platforms",
+        "subtitle": "NETWORK_INFRASTRUCTURE / SCALING_v1.2",
+        "description": "Scalable and robust systems for global business. From SaaS to transactional portals."
+    },
+    "design_exp": {
+        "title": "Design & Experience",
+        "subtitle": "CREATIVE_SUBSYSTEM / INTERFACE_v5.2",
+        "description": "User-focused interface design and conversion. We create impactful visual experiences."
+    }
+}

@@ -1,0 +1,117 @@
+{
+    "nav": {
+        "system_status": "ONLINE",
+        "metrics": {
+            "sync": "DISPONIBILIDADE",
+            "latency": "SUPORTE",
+            "neurons": "PROJETOS"
+        },
+        "user_info": {
+            "node_id": "VISITANTE",
+            "auth": "VERIFICADO"
+        },
+        "cta_button": "INICIAR PROJETO"
+    },
+    "sidebar": {
+        "dashboard": "Início",
+        "neural_core": "Serviços",
+        "security": "Clientes",
+        "api": "Contato",
+        "status": {
+            "core_temp": "SATISFAÇÃO",
+            "neural_load": "VELOCIDADE",
+            "stable": "100%"
+        }
+    },
+    "hero": {
+        "label": "DESENVOLVIMENTO WEB E MOBILE",
+        "title": "SOLUÇÕES DIGITAIS PARA\nSEU NEGÓCIO",
+        "description": "Criamos sites, aplicativos móveis e plataformas que ajudam sua empresa a crescer. Tecnologia moderna, simples para você.",
+        "cta_primary": "Fale Conosco",
+        "cta_secondary": "Ver Trabalhos"
+    },
+    "services": {
+        "title": "O QUE FAZEMOS",
+        "vision": {
+            "title": "Desenvolvimento Web",
+            "description": "Sites e sistemas sob medida. Construímos exactamente o que seu negócio precisa para operar melhor.",
+            "spec_1": "SITES MODERNOS",
+            "spec_2": "SISTEMAS SOB MEDIDA",
+            "action": "SAIBA MAIS"
+        },
+        "nlp": {
+            "title": "Aplicativos Móveis",
+            "description": "Aplicativos para iPhone e Android. Rápidos, fáceis de usar e disponíveis nas lojas.",
+            "spec_1": "IPHONE (iOS)",
+            "spec_2": "ANDROID",
+            "action": "VER APPS"
+        },
+        "predictive": {
+            "title": "Plataformas Online",
+            "description": "Sistemas de assinatura (SaaS) e ferramentas digitais para vender seus serviços ou produtos online.",
+            "action": "VER EXEMPLOS"
+        },
+        "automation": {
+            "title": "Design e Experiencia",
+            "description": "Design profissional e atraente. Garantimos que seus clientes tenham uma ótima experiência.",
+            "action": "VER DESIGNS"
+        }
+    },
+    "network": {
+        "title": "CONFIAM EM NÓS",
+        "subtitle": "Empresas que crescem com nossa ajuda."
+    },
+    "cta_banner": {
+        "title": "PRONTO PARA COMEÇAR?",
+        "subtitle": "Vamos transformar sua ideia em realidade.",
+        "button": "COMEÇAR AGORA"
+    },
+    "contact": {
+        "title": "FALE CONOSCO",
+        "subtitle": "Envie uma mensagem sobre o seu projeto. Respondemos rápido.",
+        "form": {
+            "name": "SEU NOME",
+            "email": "SEU EMAIL",
+            "type": "TENHO INTERESSE EM...",
+            "message": "SUA MENSAGEM",
+            "submit": "ENVIAR MENSAGEM"
+        }
+    },
+    "footer": {
+        "desc_1": "DESENVOLVIMENTO PROFISSIONAL PARA NEGÓCIOS MODERNOS.",
+        "desc_2": "QUALIDADE, RAPIDEZ, RESULTADOS.",
+        "platform": {
+            "title": "SERVIÇOS",
+            "link_1": "APPS WEB",
+            "link_2": "LOJAS ONLINE",
+            "link_3": "STARTUPS"
+        },
+        "company": {
+            "title": "AGÊNCIA",
+            "link_1": "PORTFÓLIO",
+            "link_2": "PROCESSO",
+            "link_3": "CONTATO"
+        },
+        "copyright": "© 2026 NEUROCORTEX. TODOS OS DIREITOS RESERVADOS."
+    },
+    "web_dev": {
+        "title": "Desenvolvimento Web",
+        "subtitle": "ARQUIVO / LISTA_DE_PROJETOS_v2.0",
+        "description": "Sistemas robustos, interfaces cativantes e código de alto desempenho. Nossa abordagem técnica garante escalabilidade e segurança em cada implementação."
+    },
+    "mobile": {
+        "title": "Apps Móveis",
+        "subtitle": "SUBSISTEMA_MOBILE / IMPLANTAÇÕES_v4.0",
+        "description": "Experiências nativas e multiplataforma projetadas para máxima fluidez. Otimizamos recursos e latência para interações sem atrito."
+    },
+    "platforms": {
+        "title": "Plataformas Online",
+        "subtitle": "INFRAESTRUTURA_DE_REDE / ESCALONAMENTO_v1.2",
+        "description": "Sistemas escaláveis e robustos para negócios globais. De SaaS a portais transacionais."
+    },
+    "design_exp": {
+        "title": "Design e Experiencia",
+        "subtitle": "SUBSISTEMA_CRIATIVO / INTERFACE_v5.2",
+        "description": "Design de interface focado no usuário e na conversão. Criamos experiências visuais impactantes."
+    }
+}
