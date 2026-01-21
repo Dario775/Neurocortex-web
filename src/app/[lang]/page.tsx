@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { Locale } from "../../i18n-config";
 import { getDictionary } from "../../get-dictionary";
 import { Sidebar } from "../../components/Sidebar";
@@ -203,9 +204,9 @@ export default async function DashboardPage({
                     <TextScramble text={dict.footer.platform.title} triggerOnHover />
                   </h4>
                   <ul className="space-y-3">
-                    <li><a href="#" className="hover:text-cyan-400 transition-colors">{dict.footer.platform.link_1}</a></li>
-                    <li><a href="#" className="hover:text-cyan-400 transition-colors">{dict.footer.platform.link_2}</a></li>
-                    <li><a href="#" className="hover:text-cyan-400 transition-colors">{dict.footer.platform.link_3}</a></li>
+                    <li><Link href={`/${lang}/web-development`} className="hover:text-cyan-400 transition-colors">{dict.footer.platform.link_1}</Link></li>
+                    <li><Link href={`/${lang}/platforms`} className="hover:text-cyan-400 transition-colors">{dict.footer.platform.link_2}</Link></li>
+                    <li><Link href="#" className="hover:text-cyan-400 transition-colors">{dict.footer.platform.link_3}</Link></li>
                   </ul>
                 </div>
                 <div className="space-y-6">
