@@ -1,7 +1,8 @@
 import { NextResponse } from "next/server";
 import { Resend } from "resend";
 
-const resend = new Resend(process.env.RESEND_API_KEY);
+// Initialize Resend only if API key exists (prevents build-time errors)
+const resend = process.env.RESEND_API_KEY ? new Resend(process.env.RESEND_API_KEY) : null;
 
 // Simple rate limiting (in-memory)
 const rateLimitMap = new Map<string, { count: number; resetTime: number }>();
@@ -67,8 +68,8 @@ export async function POST(req: Request) {
             );
         }
 
-        // Check if Resend API key is configured
-        if (!process.env.RESEND_API_KEY) {
+        // Check if Resend is initialized
+        if (!resend) {
             console.error("RESEND_API_KEY not configured");
             return NextResponse.json(
                 { error: "Servicio de email no configurado." },
