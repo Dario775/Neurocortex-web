@@ -7,7 +7,7 @@ export const Logo = ({ className, size = 40 }: { className?: string; size?: numb
         <div className={clsx("relative flex items-center justify-center", className)} style={{ width: size, height: size }}>
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
-                src="/neurocortex-logo.png?v=12"
+                src="/neurocortex-logo.png?v=13"
                 alt="Neurocortex Logo"
                 width={size}
                 height={size}

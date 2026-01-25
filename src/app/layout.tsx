@@ -61,7 +61,7 @@ export const metadata: Metadata = {
             "Agencia de desarrollo de software. Creamos sitios web, aplicaciones móviles, plataformas SaaS y diseño UI/UX.",
         images: [
             {
-                url: "/icon.png?v=12",
+                url: "/icon.png?v=13",
                 width: 512,
                 height: 512,
                 alt: "Neurocortex - Desarrollo de Software",
@@ -73,7 +73,7 @@ export const metadata: Metadata = {
         title: "Neurocortex | Desarrollo Web & Apps Móviles",
         description:
             "Agencia de desarrollo de software. Sitios web, apps móviles, SaaS y diseño UI/UX.",
-        images: ["/icon.png?v=12"],
+        images: ["/icon.png?v=13"],
     },
     alternates: {
         canonical: "https://neurocortex.com.ar",
@@ -85,9 +85,9 @@ export const metadata: Metadata = {
     },
     icons: {
         icon: [
-            { url: "/icon.png?v=12" },
+            { url: "/icon.png?v=13" },
         ],
-        apple: "/apple-icon.png?v=12",
+        apple: "/apple-icon.png?v=13",
     },
 };
 
