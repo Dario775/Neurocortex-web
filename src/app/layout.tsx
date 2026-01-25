@@ -61,7 +61,7 @@ export const metadata: Metadata = {
             "Agencia de desarrollo de software. Creamos sitios web, aplicaciones móviles, plataformas SaaS y diseño UI/UX.",
         images: [
             {
-                url: "/icon.png",
+                url: "/icon.png?v=12",
                 width: 512,
                 height: 512,
                 alt: "Neurocortex - Desarrollo de Software",
@@ -73,7 +73,7 @@ export const metadata: Metadata = {
         title: "Neurocortex | Desarrollo Web & Apps Móviles",
         description:
             "Agencia de desarrollo de software. Sitios web, apps móviles, SaaS y diseño UI/UX.",
-        images: ["/icon.png"],
+        images: ["/icon.png?v=12"],
     },
     alternates: {
         canonical: "https://neurocortex.com.ar",
@@ -84,8 +84,10 @@ export const metadata: Metadata = {
         },
     },
     icons: {
-        icon: "/icon.png?v=1",
-        apple: "/apple-icon.png?v=1",
+        icon: [
+            { url: "/icon.png?v=12" },
+        ],
+        apple: "/apple-icon.png?v=12",
     },
 };
 
@@ -98,10 +100,6 @@ export default function RootLayout({
 }>) {
     return (
         <html lang="es" suppressHydrationWarning>
-            <head>
-                <link rel="icon" href="/icon.png?v=2" />
-                <link rel="apple-touch-icon" href="/apple-icon.png?v=2" />
-            </head>
             <body
                 className={`${geistSans.variable} ${geistMono.variable} ${rajdhani.variable} antialiased`}
                 suppressHydrationWarning

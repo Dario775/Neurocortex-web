@@ -29,18 +29,14 @@ export function middleware(request: NextRequest) {
 
     // // `/_next/` and `/api/` are ignored by the watcher, but we need to ignore files in `public` manually.
     // // If you have one
+    // Skip internal paths and public files (files with extensions)
     if (
-        [
-            '/manifest.json',
-            '/favicon.ico',
-            '/next.svg',
-            '/vercel.svg',
-            '/icon.png',
-            '/icon.svg',
-            '/apple-icon.png',
-        ].includes(pathname)
-    )
+        pathname.startsWith('/_next') ||
+        pathname.startsWith('/api') ||
+        pathname.includes('.')
+    ) {
         return;
+    }
 
     // Check if there is any supported locale in the pathname
     const pathnameIsMissingLocale = i18n.locales.every(

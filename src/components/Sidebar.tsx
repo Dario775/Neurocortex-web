@@ -47,12 +47,12 @@ export function Sidebar({ dict }: SidebarProps) {
             <div className="p-8 relative">
                 <Link href={`/${lang}/`} className="flex items-center gap-4 group">
                     <div className="relative">
-                        <div className="absolute -inset-2 bg-cyan-500/20 rounded-lg blur opacity-0 group-hover:opacity-100 transition duration-500"></div>
+                        <div className="absolute -inset-2 bg-purple-500/20 rounded-lg blur opacity-0 group-hover:opacity-100 transition duration-500"></div>
                         <Logo size={40} />
                     </div>
                     <div className="flex flex-col">
                         <span className="font-bold tracking-[0.2em] text-sm font-tech text-white">
-                            NEURO<span className="text-cyan-400">CORTEX</span>
+                            NEURO<span className="text-purple-400">CORTEX</span>
                         </span>
                         <div className="flex items-center gap-2 mt-1">
                             <div className="w-1 h-1 rounded-full bg-emerald-500 shadow-[0_0_8px_rgba(16,185,129,0.8)] animate-pulse"></div>

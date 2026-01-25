@@ -189,7 +189,7 @@ export default async function DashboardPage({
                     <Logo size={32} />
                   </div>
                   <span className="font-bold tracking-[0.2em] text-lg font-tech uppercase text-white">
-                    NEURO<span className="text-cyan-400">CORTEX</span>
+                    NEURO<span className="text-purple-400">CORTEX</span>
                   </span>
                 </div>
                 <div className="space-y-2 border-l border-white/10 pl-4">
