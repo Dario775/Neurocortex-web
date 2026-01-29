@@ -2,7 +2,7 @@ import { Locale } from "../../../i18n-config";
 import { getDictionary } from "../../../get-dictionary";
 import { Sidebar } from "../../../components/Sidebar";
 import { TopBar } from "../../../components/TopBar";
-import { ProjectCard } from "../../../components/ProjectCard";
+import { ShowcaseCard } from "../../../components/ShowcaseCard";
 import { DataStreamBackground } from "../../../components/DataStreamBackground";
 import { Reveal } from "../../../components/Reveal";
 import { TextScramble } from "../../../components/TextScramble";
@@ -21,8 +21,7 @@ export default async function DesignExperiencePage({
         {
             title: "Project Ghost: Sistema Visual",
             description: "Creación de una identidad visual moderna y fácil de usar, con componentes que se adaptan a cualquier pantalla.",
-            image: "https://images.unsplash.com/photo-1558655146-d09347e92766?auto=format&fit=crop&q=80&w=1964",
-            video: "https://assets.mixkit.co/videos/preview/mixkit-abstract-movement-of-digital-lights-9336-large.mp4",
+            image: "/projects/ghost-demo.png",
             tags: ["Diseño UI", "Sistema"],
             techStack: ["Figma", "Framer"],
             clientId: "GHS-101",
@@ -31,8 +30,7 @@ export default async function DesignExperiencePage({
         {
             title: "Nexus One: Identidad de Marca",
             description: "Rediseño de marca para una empresa tecnológica, incluyendo logos, colores y guías de uso profesional.",
-            image: "https://images.unsplash.com/photo-1626785774573-4b799315345d?auto=format&fit=crop&q=80&w=2071",
-            video: "https://assets.mixkit.co/videos/preview/mixkit-digital-animation-of-a-circuit-board-1542-large.mp4",
+            image: "/projects/nexus-demo.png",
             tags: ["Marca", "Creatividad"],
             techStack: ["Illustrator", "After Effects"],
             clientId: "NXS-441",
@@ -41,8 +39,7 @@ export default async function DesignExperiencePage({
         {
             title: "Aura: Página de Lanzamiento",
             description: "Diseño de un sitio web inmersivo para un producto exclusivo. Buscamos captar la atención del cliente desde el primer segundo.",
-            image: "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&q=80&w=1964",
-            video: "https://assets.mixkit.co/videos/preview/mixkit-abstract-movement-of-digital-lights-9336-large.mp4",
+            image: "/projects/aura-demo.png",
             tags: ["Experiencia", "Web Inmersiva"],
             techStack: ["Next.js", "Three.js"],
             clientId: "AUR-309",
@@ -117,10 +114,13 @@ export default async function DesignExperiencePage({
                     </div>
 
                     {/* Project Grid */}
-                    <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-8 relative z-10">
+                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 relative z-10">
                         {projects.map((project, index) => (
                             <Reveal key={index} delay={index * 0.1}>
-                                <ProjectCard {...project} />
+                                <ShowcaseCard
+                                    {...project}
+                                    aspectRatio="video" // Design projects usually look good in video/16:9 too
+                                />
                             </Reveal>
                         ))}
                     </div>

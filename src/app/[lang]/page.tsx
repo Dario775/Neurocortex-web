@@ -51,7 +51,7 @@ export default async function DashboardPage({
                   <span className="block text-white">
                     {dict.hero.title.split('\n')[0]}
                   </span>
-                  <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 via-cyan-400 to-emerald-400">
+                  <span className="text-cyan-400">
                     {dict.hero.title.split('\n')[1] || 'DIGITAL PRODUCTS'}
                   </span>
                 </h2>

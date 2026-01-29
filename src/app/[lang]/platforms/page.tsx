@@ -2,7 +2,7 @@ import { Locale } from "../../../i18n-config";
 import { getDictionary } from "../../../get-dictionary";
 import { Sidebar } from "../../../components/Sidebar";
 import { TopBar } from "../../../components/TopBar";
-import { ProjectCard } from "../../../components/ProjectCard";
+import { ShowcaseCard } from "../../../components/ShowcaseCard";
 import { DataStreamBackground } from "../../../components/DataStreamBackground";
 import { Reveal } from "../../../components/Reveal";
 import { TextScramble } from "../../../components/TextScramble";
@@ -21,8 +21,7 @@ export default async function OnlinePlatformsPage({
         {
             title: "EduCore: Aula Virtual SaaS",
             description: "Plataforma educativa para colegios y universidades, capaz de manejar miles de alumnos conectados al mismo tiempo sin caídas.",
-            image: "https://images.unsplash.com/photo-1501504905252-473c47e087f8?auto=format&fit=crop&q=80&w=1974",
-            video: "https://assets.mixkit.co/videos/preview/mixkit-software-developer-working-on-code-at-night-23512-large.mp4",
+            image: "/projects/educore-demo.png",
             tags: ["Educación", "Escalabilidad"],
             techStack: ["React", "Cloud"],
             clientId: "EDU-772",
@@ -31,8 +30,7 @@ export default async function OnlinePlatformsPage({
         {
             title: "MarketFlow: Mercado de Ventas",
             description: "Sistema para gestionar ventas automáticas, pagos y envíos para negocios grandes.",
-            image: "https://images.unsplash.com/photo-1531403009284-440f080d1e12?auto=format&fit=crop&q=80&w=2070",
-            video: "https://assets.mixkit.co/videos/preview/mixkit-digital-animation-of-a-circuit-board-1542-large.mp4",
+            image: "/projects/marketflow-demo.png",
             tags: ["Ventas", "Automatización"],
             techStack: ["Node.js", "Redis"],
             clientId: "MKF-441",
@@ -41,11 +39,19 @@ export default async function OnlinePlatformsPage({
         {
             title: "FinSync: Sistema de Gestión",
             description: "Herramienta completa para manejar las cuentas, facturas y personal de tu empresa en un solo lugar.",
-            image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=2026",
-            video: "https://assets.mixkit.co/videos/preview/mixkit-abstract-movement-of-digital-lights-9336-large.mp4",
+            image: "/projects/finsync-demo.png",
             tags: ["Administración", "Finanzas"],
             techStack: ["TypeScript", "Docker"],
             clientId: "FIN-309",
+            link: "#"
+        },
+        {
+            title: "Nexus Market: Plataforma E-commerce",
+            description: "Ecosistema de ventas online de alto rendimiento con integración de múltiples pasarelas y logística global.",
+            image: "/projects/nexus-market-demo.png",
+            tags: ["E-commerce", "Escalabilidad"],
+            techStack: ["Next.js", "PostgreSQL"],
+            clientId: "NXM-552",
             link: "#"
         }
     ];
@@ -117,10 +123,13 @@ export default async function OnlinePlatformsPage({
                     </div>
 
                     {/* Project Grid */}
-                    <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-8 relative z-10">
+                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 relative z-10">
                         {projects.map((project, index) => (
                             <Reveal key={index} delay={index * 0.1}>
-                                <ProjectCard {...project} />
+                                <ShowcaseCard
+                                    {...project}
+                                    aspectRatio="video"
+                                />
                             </Reveal>
                         ))}
                     </div>

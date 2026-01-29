@@ -2,7 +2,7 @@ import { Locale } from "../../../i18n-config";
 import { getDictionary } from "../../../get-dictionary";
 import { Sidebar } from "../../../components/Sidebar";
 import { TopBar } from "../../../components/TopBar";
-import { ProjectCard } from "../../../components/ProjectCard";
+import { ShowcaseCard } from "../../../components/ShowcaseCard";
 import { DataStreamBackground } from "../../../components/DataStreamBackground";
 import { Reveal } from "../../../components/Reveal";
 import { TextScramble } from "../../../components/TextScramble";
@@ -21,8 +21,7 @@ export default async function WebDevelopmentPage({
         {
             title: "Logitas: Optimización de Logística",
             description: "Mejoramos la eficiencia de una red de transporte europea. Logramos reducir los tiempos de entrega en un 22% mediante un sistema inteligente que analiza el tráfico en tiempo real.",
-            image: "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&q=80&w=2070",
-            video: "https://assets.mixkit.co/videos/preview/mixkit-software-developer-working-on-code-at-night-23512-large.mp4",
+            image: "/projects/logitas-v2.png",
             tags: ["Logística", "Eficiencia"],
             techStack: ["React", "Go", "Cloud"],
             clientId: "LOG-028",
@@ -31,8 +30,7 @@ export default async function WebDevelopmentPage({
         {
             title: "Vortex: Banca Digital Moderna",
             description: "Desarrollamos la plataforma principal para un nuevo banco digital. Nos enfocamos en crear un sistema de inversión fácil de usar y con los más altos estándares de seguridad actuales.",
-            image: "https://images.unsplash.com/photo-1611974714851-48206139d73e?auto=format&fit=crop&q=80&w=2070",
-            video: "https://assets.mixkit.co/videos/preview/mixkit-digital-animation-of-a-circuit-board-1542-large.mp4",
+            image: "/projects/vortex-v2.png",
             tags: ["Finanzas", "Seguridad"],
             techStack: ["Next.js", "Rust", "Base de Datos"],
             clientId: "VTX-882",
@@ -41,11 +39,19 @@ export default async function WebDevelopmentPage({
         {
             title: "Aether: Tienda de Lujo 3D",
             description: "Creamos una experiencia de compra única para una marca de relojes premium. Los clientes pueden ver cada detalle del producto en 3D desde su navegador, tal como si lo tuvieran en sus manos.",
-            image: "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&q=80&w=1999",
-            video: "https://assets.mixkit.co/videos/preview/mixkit-abstract-movement-of-digital-lights-9336-large.mp4",
+            image: "/projects/aether-v2.png",
             tags: ["E-commerce", "Diseño 3D"],
             techStack: ["Three.js", "Next.js"],
             clientId: "ATH-441",
+            link: "#"
+        },
+        {
+            title: "Lozano & Asociados: Firma Legal",
+            description: "Sitio web corporativo de alto perfil para una firma de abogados líder. Diseño sobrio y elegante que transmite confianza y profesionalismo.",
+            image: "/projects/lozano-v2.png",
+            tags: ["Corporativo", "Diseño UI/UX"],
+            techStack: ["Next.js", "Tailwind CSS"],
+            clientId: "LZN-101",
             link: "#"
         }
     ];
@@ -116,15 +122,18 @@ export default async function WebDevelopmentPage({
                         </div>
                     </div>
 
-                    {/* Project Grid - Asymmetric Layout */}
-                    <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 relative z-10">
+                    {/* Project Grid - Showcase Layout */}
+                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 relative z-10">
                         {projects.map((project, index) => (
                             <Reveal
                                 key={index}
                                 delay={index * 0.15}
-                                className={index === 0 ? "lg:col-span-12" : "lg:col-span-6"}
+                                className="col-span-1"
                             >
-                                <ProjectCard {...project} />
+                                <ShowcaseCard
+                                    {...project}
+                                    aspectRatio="video" // Standard ratio for web projects
+                                />
                             </Reveal>
                         ))}
                     </div>

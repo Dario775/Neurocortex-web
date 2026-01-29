@@ -3,6 +3,7 @@ import { getDictionary } from "../../../get-dictionary";
 import { Sidebar } from "../../../components/Sidebar";
 import { TopBar } from "../../../components/TopBar";
 import { ProjectCard } from "../../../components/ProjectCard";
+import { ShowcaseCard } from "../../../components/ShowcaseCard";
 import { DataStreamBackground } from "../../../components/DataStreamBackground";
 import { Reveal } from "../../../components/Reveal";
 import { TextScramble } from "../../../components/TextScramble";
@@ -21,28 +22,28 @@ export default async function MobileAppsPage({
         {
             title: "NeuroFit: Control de Salud",
             description: "Una aplicación móvil que te permite seguir tus métricas de salud en tiempo real de forma fácil y rápida.",
-            image: "https://images.unsplash.com/photo-1510258122963-70d1ed889c59?auto=format&fit=crop&q=80&w=2070",
-            video: "https://assets.mixkit.co/videos/preview/mixkit-mobile-app-visuals-on-a-phone-screen-40502-large.mp4",
+            image: "/projects/neurofit-v2.jpg",
+            demoVideo: "/projects/neurofit-demo.mp4",
             tags: ["Salud", "App Nativa"],
             techStack: ["React Native", "Firebase"],
             clientId: "FIT-902",
+            imageFit: "contain" as const,
             link: "#"
         },
         {
-            title: "CryptoVault: Billetera Digital",
-            description: "Tu dinero seguro en una aplicación protegida con huella digital y los sistemas de seguridad más avanzados.",
-            image: "https://images.unsplash.com/photo-1621416894569-0f39ed31d247?auto=format&fit=crop&q=80&w=2070",
-            video: "https://assets.mixkit.co/videos/preview/mixkit-hand-holding-a-smartphone-with-a-blue-screen-21769-large.mp4",
-            tags: ["Finanzas", "Seguridad"],
-            techStack: ["Flutter", "Blockchain"],
-            clientId: "CRV-441",
+            title: "SmartMarket: Compras Inteligentes",
+            description: "Tu supermercado en el bolsillo. Escanea productos, acumula puntos y accede a ofertas personalizadas.",
+            image: "/projects/shopping-app-demo.png",
+            tags: ["Retail", "Fidelización"],
+            techStack: ["Flutter", "Node.js"],
+            clientId: "MKT-882",
+            aspectRatio: "aspect-square",
             link: "#"
         },
         {
             title: "FleetNav: Gestión de Rutas",
             description: "Ayudamos a las empresas de transporte a organizar sus recorridos de forma inteligente para ahorrar tiempo y combustible.",
-            image: "https://images.unsplash.com/photo-1526732662495-23391617a6a1?auto=format&fit=crop&q=80&w=2071",
-            video: "https://assets.mixkit.co/videos/preview/mixkit-top-view-of-metropolitan-city-at-night-with-lights-9334-large.mp4",
+            image: "/projects/fleetnav-demo.png",
             tags: ["Logística", "Inteligencia Artificial"],
             techStack: ["Swift", "Kotlin"],
             clientId: "LOG-102",
@@ -117,15 +118,18 @@ export default async function MobileAppsPage({
                         </div>
                     </div>
 
-                    {/* Project Grid - Staggered Mobile Friendly */}
-                    <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 relative z-10">
+                    {/* Project Grid - Showcase Cards */}
+                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 relative z-10">
                         {projects.map((project, index) => (
                             <Reveal
                                 key={index}
                                 delay={index * 0.15}
-                                className={index === 0 ? "lg:col-span-12" : "lg:col-span-6"}
+                                className="col-span-1"
                             >
-                                <ProjectCard {...project} />
+                                <ShowcaseCard
+                                    {...project}
+                                    aspectRatio={project.title.includes("SmartMarket") ? "square" : "portrait"}
+                                />
                             </Reveal>
                         ))}
                     </div>
