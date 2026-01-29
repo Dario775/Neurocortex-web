@@ -22,28 +22,25 @@ export default async function MobileAppsPage({
         {
             title: "NeuroFit: Control de Salud",
             description: "Una aplicación móvil que te permite seguir tus métricas de salud en tiempo real de forma fácil y rápida.",
-            image: "/projects/neurofit-v2.jpg",
-            demoVideo: "/projects/neurofit-demo.mp4",
+            image: "/projects/neurofit-v3.png",
             tags: ["Salud", "App Nativa"],
             techStack: ["React Native", "Firebase"],
             clientId: "FIT-902",
-            imageFit: "contain" as const,
             link: "#"
         },
         {
             title: "SmartMarket: Compras Inteligentes",
             description: "Tu supermercado en el bolsillo. Escanea productos, acumula puntos y accede a ofertas personalizadas.",
-            image: "/projects/shopping-app-demo.png",
+            image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?auto=format&fit=crop&q=80&w=2070",
             tags: ["Retail", "Fidelización"],
             techStack: ["Flutter", "Node.js"],
             clientId: "MKT-882",
-            aspectRatio: "aspect-square",
             link: "#"
         },
         {
             title: "FleetNav: Gestión de Rutas",
             description: "Ayudamos a las empresas de transporte a organizar sus recorridos de forma inteligente para ahorrar tiempo y combustible.",
-            image: "/projects/fleetnav-demo.png",
+            image: "https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&q=80&w=2070",
             tags: ["Logística", "Inteligencia Artificial"],
             techStack: ["Swift", "Kotlin"],
             clientId: "LOG-102",
@@ -128,7 +125,7 @@ export default async function MobileAppsPage({
                             >
                                 <ShowcaseCard
                                     {...project}
-                                    aspectRatio={project.title.includes("SmartMarket") ? "square" : "portrait"}
+                                    aspectRatio="video"
                                 />
                             </Reveal>
                         ))}
