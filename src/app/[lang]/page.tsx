@@ -158,10 +158,10 @@ export default async function DashboardPage({
                   <p className="text-zinc-500 font-mono text-xs uppercase tracking-widest">{dict.network.subtitle}</p>
                 </div>
                 <div className="flex flex-wrap gap-12 items-center opacity-60 group-hover:opacity-100 transition-opacity duration-700">
-                  <div className="flex items-center gap-2 text-zinc-400 font-bold text-lg hover:text-cyan-400 transition-colors cursor-default"><Rocket className="w-5 h-5 text-cyan-500" /> AERODYNAMIC</div>
-                  <div className="flex items-center gap-2 text-zinc-400 font-bold text-lg hover:text-purple-400 transition-colors cursor-default"><Database className="w-5 h-5 text-purple-500" /> DATAFLOW</div>
-                  <div className="flex items-center gap-2 text-zinc-400 font-bold text-lg hover:text-emerald-400 transition-colors cursor-default"><Cpu className="w-5 h-5 text-emerald-500" /> NEOMANUFACT</div>
-                  <div className="flex items-center gap-2 text-zinc-400 font-bold text-lg hover:text-pink-400 transition-colors cursor-default"><Shield className="w-5 h-5 text-pink-500" /> SECURENODE</div>
+                  <div className="flex items-center gap-2 text-zinc-400 font-bold text-lg hover:text-cyan-400 transition-colors cursor-default"><Rocket className="w-5 h-5 text-cyan-500" /> NEXT.JS</div>
+                  <div className="flex items-center gap-2 text-zinc-400 font-bold text-lg hover:text-purple-400 transition-colors cursor-default"><Database className="w-5 h-5 text-purple-500" /> POSTGRESQL</div>
+                  <div className="flex items-center gap-2 text-zinc-400 font-bold text-lg hover:text-emerald-400 transition-colors cursor-default"><Cpu className="w-5 h-5 text-emerald-500" /> TYPESCRIPT</div>
+                  <div className="flex items-center gap-2 text-zinc-400 font-bold text-lg hover:text-pink-400 transition-colors cursor-default"><Shield className="w-5 h-5 text-pink-500" /> SECURITY</div>
                 </div>
               </div>
             </div>
