@@ -19,39 +19,39 @@ export default async function OnlinePlatformsPage({
 
     const projects = [
         {
-            title: "EduCore: Aula Virtual SaaS",
-            description: "Plataforma educativa para colegios y universidades, capaz de manejar miles de alumnos conectados al mismo tiempo sin caídas.",
+            title: "EduTech Scalable Cloud",
+            description: "Plataforma educativa distribuida capaz de manejar concurrencia masiva. Arquitectura de microservicios para garantizar 99.9% de uptime.",
             image: "/projects/educore-demo.png",
-            tags: ["Educación", "Escalabilidad"],
-            techStack: ["React", "Cloud"],
-            clientId: "EDU-772",
+            tags: ["SaaS", "Microservicios"],
+            techStack: ["React", "AWS Lambda"],
+            clientId: "SYS-PLAT-01",
             link: "#"
         },
         {
-            title: "MarketFlow: Mercado de Ventas",
-            description: "Sistema para gestionar ventas automáticas, pagos y envíos para negocios grandes.",
+            title: "AutoCommerce Grid",
+            description: "Motor de ventas automatizado para altos volúmenes transaccionales. Gestión de inventario, pagos y logística en una sola malla de servicios.",
             image: "/projects/marketflow-demo.png",
-            tags: ["Ventas", "Automatización"],
+            tags: ["Automatización", "High-Load"],
             techStack: ["Node.js", "Redis"],
-            clientId: "MKF-441",
+            clientId: "SYS-PLAT-02",
             link: "#"
         },
         {
-            title: "FinSync: Sistema de Gestión",
-            description: "Herramienta completa para manejar las cuentas, facturas y personal de tu empresa en un solo lugar.",
+            title: "Enterprise Resource Node",
+            description: "Sistema centralizado de gestión de recursos (ERP). Módulos interconectados para finanzas, RRHH y operaciones en tiempo real.",
             image: "/projects/finsync-demo.png",
-            tags: ["Administración", "Finanzas"],
+            tags: ["ERP", "Enterprise"],
             techStack: ["TypeScript", "Docker"],
-            clientId: "FIN-309",
+            clientId: "SYS-PLAT-03",
             link: "#"
         },
         {
-            title: "Nexus Market: Plataforma E-commerce",
-            description: "Ecosistema de ventas online de alto rendimiento con integración de múltiples pasarelas y logística global.",
+            title: "Global Marketplace Core",
+            description: "Ecosistema de marketplace multi-vendedor. Soporte para múltiples monedas, idiomas y reglas fiscales complejas.",
             image: "/projects/nexus-market-demo.png",
-            tags: ["E-commerce", "Escalabilidad"],
+            tags: ["Marketplace", "Global"],
             techStack: ["Next.js", "PostgreSQL"],
-            clientId: "NXM-552",
+            clientId: "SYS-PLAT-04",
             link: "#"
         }
     ];

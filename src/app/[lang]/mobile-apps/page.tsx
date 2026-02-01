@@ -20,30 +20,30 @@ export default async function MobileAppsPage({
 
     const projects = [
         {
-            title: "NeuroFit: Control de Salud",
-            description: "Una aplicación móvil que te permite seguir tus métricas de salud en tiempo real de forma fácil y rápida.",
+            title: "HealthTrack Framework",
+            description: "Plataforma móvil modular para monitoreo biométrico. Integración con wearables y visualización de datos de salud en tiempo real.",
             image: "/projects/neurofit-v3.png",
-            tags: ["Salud", "App Nativa"],
+            tags: ["HealthTech", "IoT"],
             techStack: ["React Native", "Firebase"],
-            clientId: "FIT-902",
+            clientId: "SYS-MOB-01",
             link: "#"
         },
         {
-            title: "SmartMarket: Compras Inteligentes",
-            description: "Tu supermercado en el bolsillo. Escanea productos, acumula puntos y accede a ofertas personalizadas.",
+            title: "Retail Loyalty Node",
+            description: "Sistema de fidelización para retail. Escaneo de productos, gestión de puntos y notificaciones push personalizadas para aumentar la retención.",
             image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?auto=format&fit=crop&q=80&w=2070",
             tags: ["Retail", "Fidelización"],
             techStack: ["Flutter", "Node.js"],
-            clientId: "MKT-882",
+            clientId: "SYS-MOB-02",
             link: "#"
         },
         {
-            title: "FleetNav: Gestión de Rutas",
-            description: "Ayudamos a las empresas de transporte a organizar sus recorridos de forma inteligente para ahorrar tiempo y combustible.",
+            title: "RouteOptimizer Mobile",
+            description: "Solución logística para conductores. Algoritmos de enrutamiento inteligente que minimizan el consumo de combustible y tiempos de entrega.",
             image: "https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&q=80&w=2070",
-            tags: ["Logística", "Inteligencia Artificial"],
+            tags: ["Logística", "Geolocalización"],
             techStack: ["Swift", "Kotlin"],
-            clientId: "LOG-102",
+            clientId: "SYS-MOB-03",
             link: "#"
         }
     ];

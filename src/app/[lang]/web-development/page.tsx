@@ -19,39 +19,39 @@ export default async function WebDevelopmentPage({
 
     const projects = [
         {
-            title: "Logitas: Optimización de Logística",
-            description: "Mejoramos la eficiencia de una red de transporte europea. Logramos reducir los tiempos de entrega en un 22% mediante un sistema inteligente que analiza el tráfico en tiempo real.",
+            title: "SmartLogistics Core",
+            description: "Arquitectura de optimización de rutas y flotas en tiempo real. Diseñada para reducir costos operativos mediante análisis de datos geoespaciales.",
             image: "/projects/logitas-v2.png",
-            tags: ["Logística", "Eficiencia"],
+            tags: ["Logística", "Algoritmos"],
             techStack: ["React", "Go", "Cloud"],
-            clientId: "LOG-028",
+            clientId: "SYS-LOG-01",
             link: "#"
         },
         {
-            title: "Vortex: Banca Digital Moderna",
-            description: "Desarrollamos la plataforma principal para un nuevo banco digital. Nos enfocamos en crear un sistema de inversión fácil de usar y con los más altos estándares de seguridad actuales.",
+            title: "FinTech Secure Vault",
+            description: "Infraestructura bancaria de alta seguridad. Encriptación de extremo a extremo, cumplimiento de normativas financieras y auditoría en tiempo real.",
             image: "/projects/vortex-v2.png",
-            tags: ["Finanzas", "Seguridad"],
-            techStack: ["Next.js", "Rust", "Base de Datos"],
-            clientId: "VTX-882",
+            tags: ["Finanzas", "Ciberseguridad"],
+            techStack: ["Next.js", "Rust", "PostgreSQL"],
+            clientId: "SYS-FIN-02",
             link: "#"
         },
         {
-            title: "Aether: Tienda de Lujo 3D",
-            description: "Creamos una experiencia de compra única para una marca de relojes premium. Los clientes pueden ver cada detalle del producto en 3D desde su navegador, tal como si lo tuvieran en sus manos.",
+            title: "Immersive Commerce Engine",
+            description: "Motor de comercio electrónico con visualización 3D interactiva. Aumenta la conversión permitiendo al usuario inspeccionar productos al detalle.",
             image: "/projects/aether-v2.png",
-            tags: ["E-commerce", "Diseño 3D"],
+            tags: ["E-commerce", "WebGL"],
             techStack: ["Three.js", "Next.js"],
-            clientId: "ATH-441",
+            clientId: "SYS-COM-03",
             link: "#"
         },
         {
-            title: "Lozano & Asociados: Firma Legal",
-            description: "Sitio web corporativo de alto perfil para una firma de abogados líder. Diseño sobrio y elegante que transmite confianza y profesionalismo.",
+            title: "Corporate Identity Hub",
+            description: "Plataforma CMS headless escalable para corporaciones globales. Gestión de contenido distribuida y renderizado estático para máxima velocidad.",
             image: "/projects/lozano-v2.png",
-            tags: ["Corporativo", "Diseño UI/UX"],
+            tags: ["CMS", "Performance"],
             techStack: ["Next.js", "Tailwind CSS"],
-            clientId: "LZN-101",
+            clientId: "SYS-CORP-04",
             link: "#"
         }
     ];

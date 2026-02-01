@@ -19,30 +19,30 @@ export default async function DesignExperiencePage({
 
     const projects = [
         {
-            title: "Project Ghost: Sistema Visual",
-            description: "Creación de una identidad visual moderna y fácil de usar, con componentes que se adaptan a cualquier pantalla.",
+            title: "Atomic Design System",
+            description: "Biblioteca de componentes visuales estandarizados. Acelera el desarrollo y garantiza consistencia visual en todas las pantallas.",
             image: "/projects/ghost-demo.png",
-            tags: ["Diseño UI", "Sistema"],
-            techStack: ["Figma", "Framer"],
-            clientId: "GHS-101",
+            tags: ["UI Kit", "Sistematización"],
+            techStack: ["Figma", "React"],
+            clientId: "SYS-DES-01",
             link: "#"
         },
         {
-            title: "Nexus One: Identidad de Marca",
-            description: "Rediseño de marca para una empresa tecnológica, incluyendo logos, colores y guías de uso profesional.",
+            title: "Brand Identity Matrix",
+            description: "Sistema de identidad visual completo para empresas tech. Definición de lenguaje visual, paletas de color adaptativas y guías de movimiento.",
             image: "/projects/nexus-demo.png",
-            tags: ["Marca", "Creatividad"],
-            techStack: ["Illustrator", "After Effects"],
-            clientId: "NXS-441",
+            tags: ["Branding", "Visual Language"],
+            techStack: ["Illustrator", "Motion"],
+            clientId: "SYS-DES-02",
             link: "#"
         },
         {
-            title: "Aura: Página de Lanzamiento",
-            description: "Diseño de un sitio web inmersivo para un producto exclusivo. Buscamos captar la atención del cliente desde el primer segundo.",
+            title: "Conversion Landing Core",
+            description: "Arquitectura de landing pages de alto impacto. Diseñadas psicológicamente para maximizar la tasa de conversión y retención del usuario.",
             image: "/projects/aura-demo.png",
-            tags: ["Experiencia", "Web Inmersiva"],
+            tags: ["CRO", "Web Inmersiva"],
             techStack: ["Next.js", "Three.js"],
-            clientId: "AUR-309",
+            clientId: "SYS-DES-03",
             link: "#"
         }
     ];
